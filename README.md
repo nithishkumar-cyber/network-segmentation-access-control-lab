@@ -132,6 +132,22 @@ This lab demonstrates how network segmentation and access control policies can b
 
 ---
 
+# 📘 What I Learned
+
+• How structured subnetting helps isolate network segments and control communication paths.
+
+• How static routing determines packet paths between segmented networks.
+
+• How Extended ACL rules affect ICMP traffic flow between different subnets.
+
+• How to verify access control behavior using `ping`, `traceroute`, and router CLI commands.
+
+• How to validate network security policies by observing both permitted and blocked traffic paths.
+
+• How router commands such as `show ip route` and `show access-lists` help confirm correct routing and ACL enforcement.
+
+---
+
 # ⚠️ Disclaimer
 
 This project was conducted in a simulated lab environment using Cisco Packet Tracer for educational purposes.
