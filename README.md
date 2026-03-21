@@ -18,7 +18,7 @@ Download: `segmentation-lab.mkv`
 
 This lab demonstrates the design and validation of a segmented network using multiple routers, structured subnetting, static routing, DHCP configuration, and extended access control lists.
 
-The objective was to validate how traffic flows across segmented networks and confirm that access control policies correctly restrict or allow communication between specific network segments.
+The objective was to analyze how traffic flows across segmented networks and verify that access control policies correctly restrict or allow communication between specific network segments.
 
 The environment was built as a controlled simulation using Cisco Packet Tracer.
 
@@ -30,10 +30,10 @@ The network consists of three routers connected through separate subnets.
 
 Key components include:
 
-• Multiple segmented networks using structured subnetting  
-• Static routing between routers  
-• DHCP services providing automatic IP assignment  
-• Extended Access Control Lists applied to router interfaces
+- Multiple segmented networks using structured subnetting  
+- Static routing between routers  
+- DHCP services providing automatic IP assignment  
+- Extended Access Control Lists applied to router interfaces  
 
 Each subnet represents an isolated network segment with defined routing and access control behavior.
 
@@ -59,9 +59,9 @@ DHCP pools were configured on routers to automatically assign IP addresses to cl
 
 Configuration included:
 
-• IP address range  
-• Default gateway assignment  
-• Network mask definition
+- IP address range  
+- Default gateway assignment  
+- Network mask definition  
 
 Client systems successfully received IP configuration dynamically.
 
@@ -79,7 +79,7 @@ Verification included:
 show access-lists
 
 
-This confirmed that restricted traffic was properly blocked while permitted traffic was allowed.
+This confirmed that restricted traffic was blocked while permitted traffic was allowed.
 
 ---
 
@@ -87,9 +87,9 @@ This confirmed that restricted traffic was properly blocked while permitted traf
 
 Traffic validation was performed using:
 
-• `ping`  
-• `traceroute`  
-• router CLI inspection
+- `ping`  
+- `traceroute`  
+- router CLI inspection  
 
 Testing scenarios included verifying both permitted and restricted traffic paths between network segments.
 
@@ -109,20 +109,20 @@ Testing scenarios included verifying both permitted and restricted traffic paths
 
 # 📁 Repository Contents
 
-`segmentation-lab.pkt` — Packet Tracer topology file  
-`segmentation-lab.mkv` — Silent walkthrough of the lab environment  
-`proof-of-function.txt` — Traffic validation observations
+- `segmentation-lab.pkt` — Packet Tracer topology file  
+- `segmentation-lab.mkv` — Silent walkthrough of the lab environment  
+- `proof-of-function.txt` — Traffic validation observations  
 
 ---
 
 # 🧰 Skills Demonstrated
 
-• Network segmentation fundamentals  
-• Structured subnetting and IP planning  
-• Static routing configuration  
-• DHCP deployment and validation  
-• Access control policy enforcement  
-• Traffic path verification using CLI tools
+- Network segmentation fundamentals  
+- Structured subnetting and IP planning  
+- Static routing configuration  
+- DHCP deployment and validation  
+- Access control policy enforcement  
+- Traffic path verification using CLI tools  
 
 ---
 
@@ -134,17 +134,17 @@ This lab demonstrates how network segmentation and access control policies can b
 
 # 📘 What I Learned
 
-• How structured subnetting helps isolate network segments and control communication paths.
+- How structured subnetting helps isolate network segments and control communication paths  
 
-• How static routing determines packet paths between segmented networks.
+- How static routing determines packet paths between segmented networks  
 
-• How Extended ACL rules affect ICMP traffic flow between different subnets.
+- How extended ACL rules influence ICMP traffic flow between different subnets  
 
-• How to verify access control behavior using `ping`, `traceroute`, and router CLI commands.
+- How to verify access control behavior using `ping`, `traceroute`, and router CLI commands  
 
-• How to validate network security policies by observing both permitted and blocked traffic paths.
+- How to validate network security policies by observing both permitted and blocked traffic paths  
 
-• How router commands such as `show ip route` and `show access-lists` help confirm correct routing and ACL enforcement.
+- How router commands such as `show ip route` and `show access-lists` confirm routing and ACL enforcement  
 
 ---
 
