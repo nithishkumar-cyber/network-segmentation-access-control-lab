@@ -3,6 +3,7 @@
 🗓️ Date: April 2025  
 📍 Tool: Cisco Packet Tracer  
 🎯 Focus: Network segmentation design, access control enforcement, and traffic path validation in a simulated multi-router environment.
+💡 This lab demonstrates real-world network segmentation enforcement using ACLs, including validation through traffic blocking, routing inspection, and ACL hit analysis.
 
 ---
 
@@ -14,7 +15,7 @@ Download: `segmentation-lab.mkv`
 
 ---
 
-# 🧠 Lab Overview
+# 🧠 Lab Objective & Scenario
 
 This lab demonstrates the design and validation of a segmented network using multiple routers, structured subnetting, static routing, DHCP configuration, and extended access control lists.
 
@@ -128,6 +129,18 @@ Testing scenarios included verifying both permitted and restricted traffic paths
 - `segmentation-lab.pkt` — Packet Tracer topology file  
 - `segmentation-lab.mkv` — Silent walkthrough of the lab environment  
 - `proof-of-function.txt` — Traffic validation observations  
+
+---
+
+# 🚀 How to Verify (Quick)
+
+1. Open `segmentation-lab.pkt` in Cisco Packet Tracer  
+2. Run:
+   - `show ip route`
+   - `show access-lists`
+3. Test:
+   - PC2 → PC3 (should fail)
+   - PC1 → PC3 (should succeed)
 
 ---
 
