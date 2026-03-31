@@ -107,6 +107,22 @@ Testing scenarios included verifying both permitted and restricted traffic paths
 
 ---
 
+# 🔐 Proof of Enforcement (Visual)
+
+### 🚫 Blocked Traffic (ACL in Action)
+![Blocked Ping](./screenshots/blocked-ping.png)
+
+### ✅ Allowed Traffic
+![Allowed Ping](./screenshots/allowed-ping.png)
+
+### 📊 ACL Hit Counters
+![ACL Proof](./screenshots/acl-proof.png)
+
+### 🧭 Routing Validation
+![Routing Table](./screenshots/routing-proof.png)
+
+---
+
 # 📁 Repository Contents
 
 - `segmentation-lab.pkt` — Packet Tracer topology file  
