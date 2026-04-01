@@ -7,11 +7,31 @@
 
 ---
 
-🎥 Video Walkthrough  
-[▶️ Watch on Google Drive](https://drive.google.com/file/d/1pCSEznhMZSmdej0K9S7oCAp7shkYwAks/view)
+## 🎥 Demo Walkthrough (2 min)
 
-📦 Also available in this repository:  
-Download: `segmentation-lab.mkv`
+💡 What you're seeing in this demo:
+
+1. 🧭 Topology Overview  
+   → Multi-router segmented network with ACL enforcement  
+
+2. 📡 Routing Validation  
+   → Static routes controlling traffic flow between subnets  
+
+3. 📊 Access Control Verification  
+   → ACL hit counters confirm active filtering
+
+4. 🚫 Blocked Traffic  
+   → ACL denies unauthorized ICMP communication  
+
+5. ✅ Allowed Traffic  
+   → Permitted segments successfully communicate  
+
+  
+
+▶️ Watch Demo:  
+[segmentation-demo.mp4](./video/segmentation-demo.mp4)
+
+💡 Recruiter Tip: Watch this first for a quick understanding of project functionality.
 
 ---
 
@@ -127,7 +147,7 @@ Testing scenarios included verifying both permitted and restricted traffic paths
 # 📁 Repository Contents
 
 - `segmentation-lab.pkt` — Packet Tracer topology file  
-- `segmentation-lab.mkv` — Silent walkthrough of the lab environment  
+- `video/segmentation-demo.mp4` — Short demonstration of network behavior and ACL enforcement    
 - `proof-of-function.txt` — Traffic validation observations  
 
 ---
