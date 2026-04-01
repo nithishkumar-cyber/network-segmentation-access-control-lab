@@ -148,7 +148,8 @@ Testing scenarios included verifying both permitted and restricted traffic paths
 # 📁 Repository Contents
 
 - `segmentation-lab.pkt` — Packet Tracer topology file  
-- `video/segmentation-demo.mp4` — Short demonstration of network behavior and ACL enforcement    
+- `video/segmentation-demo.mp4` — Short demonstration of network behavior and ACL enforcement
+- `/screenshots` — Topology and validation proof 
 - `proof-of-function.txt` — Traffic validation observations  
 
 ---
