@@ -3,6 +3,7 @@
 🗓️ Date: April 2025  
 📍 Tool: Cisco Packet Tracer  
 🎯 Focus: Network segmentation design, access control enforcement, and traffic path validation in a simulated multi-router environment.
+
 💡 This lab demonstrates real-world network segmentation enforcement using ACLs, including validation through traffic blocking, routing inspection, and ACL hit analysis.
 
 ---
