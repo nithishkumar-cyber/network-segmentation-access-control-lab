@@ -30,7 +30,7 @@
   
 
 ▶️ Watch Demo:  
-[segmentation-demo.mp4](/video/segmentation-demo.mp4)
+[segmentation-demo.mp4](video/segmentation-demo.mp4)
 
 💡 Recruiter Tip: Watch this first for a quick understanding of project functionality.
 
