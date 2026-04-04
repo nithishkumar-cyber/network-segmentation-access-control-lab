@@ -1,30 +1,30 @@
 # 🌐 Network Segmentation & Access Control Validation Lab (Packet Tracer)
 
-🗓️ Date: April 2025  
-📍 Tool: Cisco Packet Tracer  
-🎯 Focus: Network segmentation design, access control enforcement, and traffic path validation in a simulated multi-router environment.
+Date: April 2025  
+Tool: Cisco Packet Tracer  
+Focus: Network segmentation design, access control enforcement, and traffic path validation in a simulated multi-router environment.
 
-💡 This lab demonstrates real-world network segmentation enforcement using ACLs, including validation through traffic blocking, routing inspection, and ACL hit analysis.
+This lab demonstrates real-world network segmentation enforcement using ACLs, including validation through traffic blocking, routing inspection, and ACL hit analysis.
 
 ---
 
 ## 🎥 Demo Walkthrough (2 min)
 
-💡 What you're seeing in this demo:
+What you're seeing in this demo:
 
-1. 🧭 Topology Overview  
+1. Topology Overview  
    → Multi-router segmented network with ACL enforcement  
 
-2. 📡 Routing Validation  
+2. Routing Validation  
    → Static routes controlling traffic flow between subnets  
 
-3. 📊 Access Control Verification  
+3. Access Control Verification  
    → ACL hit counters confirm active filtering
 
-4. 🚫 Blocked Traffic  
+4. Blocked Traffic  
    → ACL denies unauthorized ICMP communication  
 
-5. ✅ Allowed Traffic  
+5. Allowed Traffic  
    → Permitted segments successfully communicate  
 
   
@@ -32,7 +32,7 @@
 ▶️ Watch Demo:  
 [segmentation-demo.mp4](./video/segmentation-demo.mp4)
 
-💡 Recruiter Tip: Watch this first for a quick understanding of project functionality.
+Recruiter Tip: Watch this first for a quick understanding of project functionality.
 
 ---
 
@@ -121,26 +121,26 @@ Testing scenarios included verifying both permitted and restricted traffic paths
 
 | Test | Result | Observation |
 |-----|-----|-----|
-| PC1 ➜ PC2 ping | ✅ Allowed | Routing between segments operational |
-| PC2 ➜ PC3 ping | ❌ Blocked | ACL policy enforced |
-| PC1 ➜ PC3 ping | ✅ Allowed | Segmentation policy correctly configured |
-| `show access-lists` | ✅ Hits logged | ACL filtering confirmed |
-| `show ip route` | ✅ Valid | Static routes functioning |
+| PC1 ➜ PC2 ping | Allowed | Routing between segments operational |
+| PC2 ➜ PC3 ping | Blocked | ACL policy enforced |
+| PC1 ➜ PC3 ping | Allowed | Segmentation policy correctly configured |
+| `show access-lists` | Hits logged | ACL filtering confirmed |
+| `show ip route` | Valid | Static routes functioning |
 
 ---
 
 # 🔐 Proof of Enforcement (Visual)
 
-### 🚫 Blocked Traffic (ACL in Action)
+### Blocked Traffic (ACL in Action)
 ![Blocked Ping](./screenshots/blocked-ping.png)
 
-### ✅ Allowed Traffic
+### Allowed Traffic
 ![Allowed Ping](./screenshots/allowed-ping.png)
 
-### 📊 ACL Hit Counters
+### ACL Hit Counters
 ![ACL Proof](./screenshots/acl-proof.png)
 
-### 🧭 Routing Validation
+### Routing Validation
 ![Routing Table](./screenshots/routing-proof.png)
 
 ---
