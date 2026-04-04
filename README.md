@@ -27,8 +27,6 @@ What you're seeing in this demo:
 5. Allowed Traffic  
    → Permitted segments successfully communicate  
 
-  
-
 ▶️ Watch Demo:  
 [segmentation-demo.mp4](./video/segmentation-demo.mp4)
 
@@ -69,9 +67,7 @@ Manually configured route entries between routers to ensure packets follow inten
 
 Validated routing tables using:
 
-
 show ip route
-
 
 ---
 
@@ -150,7 +146,7 @@ Testing scenarios included verifying both permitted and restricted traffic paths
 - `segmentation-lab.pkt` — Packet Tracer topology file  
 - `video/segmentation-demo.mp4` — Short demonstration of network behavior and ACL enforcement
 - `/screenshots` — Topology and validation proof 
-- `proof-of-function.txt` — Traffic validation observations  
+- `proof-of-function.md` — Traffic validation observations  
 
 ---
 
@@ -186,15 +182,10 @@ This lab demonstrates how network segmentation and access control policies can b
 # 📘 What I Learned
 
 - How structured subnetting helps isolate network segments and control communication paths  
-
 - How static routing determines packet paths between segmented networks  
-
 - How extended ACL rules influence ICMP traffic flow between different subnets  
-
 - How to verify access control behavior using `ping`, `traceroute`, and router CLI commands  
-
 - How to validate network security policies by observing both permitted and blocked traffic paths  
-
 - How router commands such as `show ip route` and `show access-lists` confirm routing and ACL enforcement  
 
 ---
